@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.10)
-project(discord_bot)
-find_package(dpp REQUIRED)
-add_executable(bot main.cpp)
-target_link_libraries(bot dpp::dpp)
