@@ -13,4 +13,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(dpp)
 
 add_executable(bot main.cpp)
-target_link_libraries(bot dpp::dpp)
+
+# Hatanın düzeltildiği yer: dpp::dpp yerine sadece dpp kullanıyoruz
+target_link_libraries(bot dpp)
